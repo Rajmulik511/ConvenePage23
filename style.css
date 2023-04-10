@@ -86,8 +86,8 @@ header{
 }
 @media screen and (max-width : 900px) {
     .logo{
-        font-size: 18px;
-        letter-spacing: 1px;
+        font-size: 80px;
+        width: 10px;
         
     }
     .hamburger{
@@ -175,6 +175,9 @@ header{
 @media(max-width:650px){
     #head .content img {
         width: 400px;
+        position: relative;
+        top: 40px;
+    
     }
     #head .content {
         width: 250px;
