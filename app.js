@@ -1,6 +1,5 @@
-let menuIcon = document.querySelector("#menu-icon");
-let show = document.querySelector(".show");
-menuIcon.addEventListener("click",()=>{
-    menuIcon.classList.toggle('bx-x');
-    show.classList.toggle('active');
+let hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click",()=>{
+    let navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
 });
