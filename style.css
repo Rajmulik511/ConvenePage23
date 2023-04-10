@@ -179,6 +179,12 @@ header{
         top: 40px;
     
     }
+    .col-12 .info h3{
+        position: relative;
+        top: 10px;
+        font-size: 15px;
+        line-height: 25px;
+    }
     #head .content {
         width: 250px;
         margin: auto;
@@ -272,8 +278,17 @@ header{
         margin-bottom : 35px;
     }
     .text h1{
-        font-size: 60px;
+        text-align: center;
+        font-size: 40px;
         margin-bottom:25px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .text a{
+        position: relative;
+        left: 99px;
+        font-size: 12px;
     }
 }
 /* Domains Page */
@@ -317,6 +332,12 @@ header{
     color: var(--main-color);
 }
 @media  screen and (max-width: 1100px){
+    .domains h1{
+        font-size: 40px;
+    }
+    .service h2{
+        font-size: 20px;
+    }
     .domains{
         height: 100%;
     }
@@ -409,6 +430,15 @@ header{
 }
 
 /* responsive */
+@media(max-width:1100px){
+    .timeline-section h2{
+        font-size: 40px;
+    }
+    .timeline-date{
+        font-size: 15px;
+    }
+
+}
 @media(max-width: 767px){
 	.timeline-items::before{
 		left: 7px;
@@ -424,6 +454,9 @@ header{
 	.timeline-dot{
 		left:0;
 	}
+    .timeline-content p{
+        font-size: 13px;
+    }
 }
 /* Prizes section */
 .prizes {
@@ -445,7 +478,7 @@ header{
 .prizes-container .prize-box{
     flex: 1 1 1 1 30rem;
     background-color: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 4rem 2rem 4rem;
     text-align: center;
     border: 0.2rem solid var(--bg-color);
     border-radius: 2rem;
@@ -467,7 +500,15 @@ header{
     font-size: var(--subheading-font);
     font-weight: 500;
 }
+@media(max-width:1100px) {
+    .prizes h2{
+        font-size: 40px;
+    }
+    .prize-box h3{
+        font-size: 18px;
+    }
 
+}
 /* Footer */
 .footer{
     background-color: var(--second-bg-color);
@@ -570,7 +611,7 @@ header{
       max-width: 900px;
       margin: 10px auto;
       line-height: 1.8;
-      font-size: 0.8rem;
+      font-size: 12px;
     }
     .socials a {
       height: 35px;
@@ -578,6 +619,6 @@ header{
       font-size: 18px;
     }
     .footer p{
-        font-size: 15px;
+        font-size: 13px;
     }
   }
