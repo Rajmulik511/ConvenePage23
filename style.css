@@ -287,7 +287,7 @@ header{
     }
     .text a{
         position: relative;
-        left: 50%;
+        left: 25%;
         font-size: 12px;
     }
 }

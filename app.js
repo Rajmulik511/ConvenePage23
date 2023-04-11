@@ -1,5 +1,18 @@
 let hamburger = document.querySelector(".hamburger");
+let navList = document.querySelectorAll(".nav-list")
+let navBar = document.querySelector(".nav-bar");
+
 hamburger.addEventListener("click",()=>{
-    let navBar = document.querySelector(".nav-bar");
-    navBar.classList.toggle("active");
+    navBar.classList.add("active"); 
+
 });
+navList.forEach(function(li){
+    li.addEventListener("click",()=>{
+        navBar.classList.remove("active"); 
+    })
+})
+
+
+
+
+
