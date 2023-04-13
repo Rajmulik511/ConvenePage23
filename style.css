@@ -459,7 +459,7 @@ header{
     }
 }
 /* Prizes section */
-.prizes {
+/* .prizes {
     padding: 25px 15px;
 }
 .prizes h2{
@@ -508,6 +508,136 @@ header{
         font-size: 18px;
     }
 
+} */
+/* Sponsors section styling */
+.sponsors{
+    width: 100%;
+    height: 100vh;
+    padding: 0 ;
+    background-color: var(--bg-color);
+}
+.sponsors h1{
+    font-size: var(--heading-font);
+    letter-spacing:2px;
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.sponsor-row-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px , 1fr));
+    row-gap: 60px;
+    column-gap: 20px;
+}
+.service-sp{
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--second-bg-color);;
+    padding: 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.service-sp:hover{
+    border: 2px solid var(--main-color);
+    
+}
+.service-sp a i {
+    color: white;
+    font-size: 30px;
+}
+.service-sp a img {
+    width: 30px;
+}
+
+.sponsor-logo{
+    width: 100px;
+    margin-bottom: 10px;
+}
+@media  screen and (max-width: 1100px){
+    .sponsors{
+        height: 100%;
+    }
+    .sponsor-row-1{
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+@media  screen and (max-width: 400px){
+    .sponsor-row-1{
+        row-gap:7px;
+    }
+}
+/* mini sponsors */
+.mini-sponsors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+.mini{
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.mini:hover{
+    border: 2px solid var(--main-color);
+    
+}
+.mini img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+@media  screen and (max-width: 1100px){
+    .mini-sponsors{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+    }
+    .mini{
+        padding: 10px 1px;
+    }
+    .mini span{
+        font-size: 14px;
+    }
+    .mini img{
+        margin-left: 0;
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+   
+}
+@media  screen and (max-width: 400px){
+    .mini-sponsors{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+}
+.mini{
+    padding: 10px 1px;
+}
+.mini span{
+    font-size: 14px;
+}
+.mini img{
+    margin-left: 0;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
 }
 /* Footer */
 .footer{
