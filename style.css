@@ -643,6 +643,7 @@ header{
 }
 /* Footer */
 .footer{
+    margin-top: 25px;
     background-color: var(--second-bg-color);
     /* background-image: linear-gradient(180deg,rgb(0, 0, 0),#0006b3); */
     /* background:linear-gradient(180deg,#000,#020216c0 30%,#04063bc0 40%,#070b6ac0 59%,#050a94e6 80%); */
