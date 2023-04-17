@@ -309,7 +309,7 @@ header{
 }
 .row1{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    grid-template-columns: repeat(5,1fr);
     row-gap: 60px;
     column-gap: 20px;
 }
@@ -330,6 +330,14 @@ header{
     font-size: var(--subheading-font);
     margin-bottom: 10px;
     color: var(--main-color);
+}
+@media(max-width : 1299px){
+    .row1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+        row-gap: 60px;
+        column-gap: 20px;
+    }
 }
 @media  screen and (max-width: 1100px){
     .domains h1{
