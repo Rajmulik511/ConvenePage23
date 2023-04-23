@@ -635,7 +635,7 @@ header{
 @media(max-width : 1000px){
     .pricing{
         position: relative;
-        top: 70px;
+        top: 40px;
     }
 }
 /* Sponsors section styling */
