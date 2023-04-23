@@ -14,5 +14,3 @@ navList.forEach(function(li){
 
 
 
-
-
