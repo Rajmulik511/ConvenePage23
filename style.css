@@ -293,6 +293,8 @@ header{
 }
 /* Domains Page */
 .domains{
+    position: relative;
+    top: -50px;
     width: 100%;
     height: 100vh;
     padding: 0 ;
@@ -347,6 +349,8 @@ header{
         font-size: 20px;
     }
     .domains{
+        position: relative;
+        top: 50px;
         height: 100%;
     }
     .row1{
@@ -359,9 +363,10 @@ header{
         row-gap:7px;
     }
 }
-
 /* time line */
 .timeline-section{
+    position: relative;
+    top: -80px;
 	background-color: #24292d;
 	min-height: 100vh;
 	padding: 25px 15px;
@@ -439,6 +444,10 @@ header{
 
 /* responsive */
 @media(max-width:1100px){
+    .timeline-section{
+        position: relative;
+        top: 30px;
+    }
     .timeline-section h2{
         font-size: 40px;
     }
@@ -517,10 +526,122 @@ header{
     }
 
 } */
+/* Registor and download now  */
+.reg-container{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:20px;
+    row-gap: 15px;
+    margin-bottom: 0;
+}
+.reg-box{
+    background-color: var(--second-bg-color);
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+.reg-box a h2{
+    color: var(--text-color);
+}
+.reg-box:hover{
+    border: 2px solid var(--main-color);
+
+}
+#reg-1{
+    grid-row: 1 / span 2;
+
+}
+#reg-1 img{
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+#reg-1 h2{
+    margin-top: 36px;
+    margin-left: 25%;
+}
+.reg-box i{
+    margin-top: 10px;
+    font-size:60px;
+    margin-left: 50%;
+    color: var(--main-color);
+}
+.reg-box h2{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+@media(max-width : 900px){
+    .reg-container{
+        width: 100%;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1fr ;
+        column-gap: 5px;
+        row-gap: 5px;
+        /* margin-top: 25px; */
+    }
+    .reg-box{
+        margin: none;
+        row-gap: 20px;
+    }
+    #reg-1{
+        grid-row: 1 / span 1;
+        margin: none;
+    }
+    #reg-1 img{
+        width:50%;
+        margin-left:25%;
+    }
+    #reg-1 h2{
+        margin-top: 18px;
+        margin-left: 25%;
+        letter-spacing: 2px;
+    }
+    .reg-box i{
+        font-size:50px;
+        margin-left: 40%;
+        color: var(--main-color);
+
+    }
+    .reg-box h2{
+        margin-left: 25%;
+        margin-top: 18px;
+    
+    }
+}
+@media (max-width:395px) {
+    .reg-container{
+        margin-bottom: 60px;
+    }
+}
+@media (max-height:696px){
+    .reg-container{
+        margin-bottom: 150px;
+    }
+}
+/* Cash pricing img */
+.pricing{
+    position: relative;
+    top: -70px;
+}
+.pricing img{
+    width: 100%;
+    
+}
+@media(max-width : 1000px){
+    .pricing{
+        position: relative;
+        top: 70px;
+    }
+}
 /* Sponsors section styling */
 .sponsors{
+    position:relative;
+    top : -150px;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0 ;
     background-color: var(--bg-color);
 }
@@ -566,6 +687,8 @@ header{
 }
 @media  screen and (max-width: 1100px){
     .sponsors{
+        position: relative;
+        top: 30px;
         height: 100%;
     }
     .sponsor-row-1{
@@ -648,6 +771,21 @@ header{
     border-radius: 50%;
     margin-right: 5px;
 }
+}
+/* CONTACT US IMG */
+.getInTouch{
+    position: relative;
+    top: -70px;
+}
+.getInTouch img{
+   width: 100%;
+   
+}
+@media(max-width : 1000px){
+    .getInTouch{
+        position: relative;
+        top: 60px;
+    }
 }
 /* Footer */
 .footer{
