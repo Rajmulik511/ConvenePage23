@@ -888,7 +888,11 @@ header{
     color:red;
   }
   .socials .google:hover{
-    background:blue;
+    background:rgb(113, 113, 248);
+    color:white;
+  }
+  .socials .mail:hover{
+    background:rgb(43, 172, 166);
     color:white;
   }
   
