@@ -754,7 +754,7 @@ header{
     font-size: 1.3rem;
 }
 .mini:hover{
-    border: 2px solid var(--main-color);
+    border: 1px solid var(--main-color);
     
 }
 .mini img{
@@ -783,8 +783,70 @@ header{
     position: relative;
     left: -25px;
 }
-
-
+#pinfo{
+    position: relative;
+    bottom: 25px;
+}
+#avani-img{
+    width: 125px;
+}
+#avani{
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+}
+#df-img{
+    width: 130px;
+}
+#df{
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+}
+#kn-img{
+    width: 150px;
+    position: relative;
+    right: 20px;
+}
+#kn{
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+}
+#gi-img{
+    width: 130px;
+    position: relative;
+    right: 20px;
+    margin: 0;
+}
+#gi{
+    position: relative;
+    bottom: 40px;
+    right:-15px;
+}
+#mst-img{
+    width: 150px;
+    position: relative;
+    right: 15px;
+    top: 30px;
+    margin: 0;
+}
+#mst{
+    position: relative;
+    top: 15px;
+    right:-15px;
+}
+#ne-img{
+    width: 130px;
+    position: relative;
+    right: 50px;
+    top: 0px;
+    margin: 0;
+}
+#ne{
+    position: relative;
+    bottom: 50px;
+}
 @media  screen and (max-width: 1100px){
     .mini-sponsors{
             margin-top: 20px;
@@ -834,6 +896,75 @@ header{
     position: relative;
  left: 0;
  top: 0px;
+}
+#ph-img{
+    width: 80%;
+    /* position: relative;
+    left: 35px; */
+}
+#pinfo{
+    position: relative;
+    top: 6px;
+}
+
+#avani-img{
+    width: 100%;
+}
+#avani{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+#df-img{
+    width: 80%;
+}
+#df{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+#kn-img{
+    width: 90%;
+    position: relative;
+    right: 0px;
+}
+#kn{
+    position: relative;
+    bottom: -25px;
+    right: 0px;
+}
+#gi-img{
+    width: 90%;
+    position: relative;
+    right: 0px;
+}
+#gi{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+#mst-img{
+    width: 100%;
+    position: relative;
+    right: 0px;
+    top: 30px;
+    margin: 0;
+}
+#mst{
+    position: relative;
+    top: 50px;
+    right:0px;
+}
+#ne-img{
+    width: 85%;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin: 0;
+}
+#ne{
+    position: relative;
+    bottom: 0px;
 }
 }
 /* CONTACT US IMG */
