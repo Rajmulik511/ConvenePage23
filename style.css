@@ -662,6 +662,13 @@ header{
         top:60px;
     }
 }
+@media(max-width : 450px){
+    .pricing img{
+        /* position: relative;
+        top: 15px; */
+        margin-top: 20px;
+    }
+}
 /* Sponsors section styling */
 .sponsors{
     position:relative;
@@ -731,6 +738,10 @@ header{
 @media  screen and (max-width: 400px){
     .sponsor-row-1{
         row-gap:7px;
+    }
+    #z-pl{
+        position: relative;
+        top: 12px;
     }
 }
 /* mini sponsors */
@@ -934,7 +945,7 @@ header{
 }
 #kn{
     position: relative;
-    bottom: -25px;
+    bottom: -5px;
     right: 0px;
 }
 #gi-img{
