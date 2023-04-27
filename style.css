@@ -777,12 +777,12 @@ header{
     width: 150px;
     margin-top: 10px;
 }
-#masst{
+/* #masst{
     width: 140px;
     margin-top: 10px;
     position: relative;
     left: -25px;
-}
+} */
 #pinfo{
     position: relative;
     bottom: 25px;
@@ -836,6 +836,10 @@ header{
     top: 15px;
     right:-15px;
 }
+/* #mst-a{
+    margin: 0;
+    padding: 0%;
+} */
 #ne-img{
     width: 130px;
     position: relative;
